@@ -1,4 +1,4 @@
-# sentrydock-com
+# SentryDock
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sentrydock-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sentrydock.com/
+SentryDock provides a monitoring and alerting service that tracks local news, market developments, and social media sources across 95+ languages. Founded in 2024, it lets users define topics, choose sources like news sites, X/Twitter, Telegram, Reddit, and receive real‑time alerts via email, Slack, Teams, or webhooks. Plans start at $49/month with free trials, offering translation, summarisation, and API access for integration into assistants or workflows.
+
+**Areas:** Monitoring · Alerts · News · Multilingual · API
+
+## SentryDock on APIs.io
+
+Everything profiled for SentryDock is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sentrydock-com/](https://apis.io/providers/sentrydock-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [SentryDock Account API](https://apis.io/apis/sentrydock-com/sentrydock-com-account-api/) — The Account API from SentryDock — 1 operation(s) for account.
+- [SentryDock Alerts API](https://apis.io/apis/sentrydock-com/sentrydock-com-alerts-api/) — The Alerts API from SentryDock — 1 operation(s) for alerts.
+- [SentryDock Api Docs.md API](https://apis.io/apis/sentrydock-com/sentrydock-com-api-docs-md-api/) — The Api Docs.md API from SentryDock — 1 operation(s) for api docs.md.
+- [SentryDock Delivery API](https://apis.io/apis/sentrydock-com/sentrydock-com-delivery-api/) — The Delivery API from SentryDock — 1 operation(s) for delivery.
+- [SentryDock MCP API](https://apis.io/apis/sentrydock-com/sentrydock-com-mcp-api/) — The Mcp API from SentryDock — 1 operation(s) for mcp.
+- [SentryDock Monitors API](https://apis.io/apis/sentrydock-com/sentrydock-com-monitors-api/) — The Monitors API from SentryDock — 1 operation(s) for monitors.
+- [SentryDock News API](https://apis.io/apis/sentrydock-com/sentrydock-com-news-api/) — The News API from SentryDock — 3 operation(s) for news.
+- [SentryDock Usage API](https://apis.io/apis/sentrydock-com/sentrydock-com-usage-api/) — The Usage API from SentryDock — 1 operation(s) for usage.
+- [SentryDock .well Known API](https://apis.io/apis/sentrydock-com/sentrydock-com-well-known-api/) — The .well Known API from SentryDock — 2 operation(s) for .well known.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SentryDock Agentic Access](https://apis.io/agentic-access/sentrydock-com/sentrydock-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SentryDock API Rules](https://apis.io/rules/sentrydock-com/sentrydock-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SentryDock Authentication](https://apis.io/security/sentrydock-com/sentrydock-com-authentication/)
+- [SentryDock Domain Security](https://apis.io/security/sentrydock-com/sentrydock-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [SentryDock Scopes](https://apis.io/scopes/sentrydock-com/sentrydock-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SentryDock Plans Pricing](https://apis.io/plans/sentrydock-com/sentrydock-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sentrydock.com/)
+- [Documentation](https://www.sentrydock.com/help/guides)
+- [Getting started](https://www.sentrydock.com/help/getting-started)
+- [Pricing](https://www.sentrydock.com/pricing)
+- [Support](https://www.sentrydock.com/help)
+- [Terms of service](https://www.sentrydock.com/terms)
+- [Privacy policy](https://www.sentrydock.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.0** — developing · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 39.8 |
+| Contract governance | 65.5 |
+| Operational transparency | 7.1 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 48.5 |
+
+**Agent readiness 42.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | documented (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sentrydock-com/](https://apis.io/providers/sentrydock-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SentryDock: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sentrydock-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
